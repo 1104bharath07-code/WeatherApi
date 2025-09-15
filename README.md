@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title> animated Weather Dashboard with Favorites & Background</title>
   <style>
-   
     body {
       font-family: Arial, sans-serif;
       background-color: ;
@@ -131,7 +130,6 @@
       font-size: 15px;
     }
     .unit-toggle-btn {
-        
       margin-left: 0.5rem;
       padding: 1rem;
       font-size: 1rem;
@@ -150,10 +148,8 @@
       <button id="addFavoriteBtn" disabled>Add to Favorites</button>
       <button id="unitToggleBtn" class="unit-toggle-btn">°F</button>
     </div>
-
     <div class="current-weather" id="currentWeather">Current weather info will appear here</div>
     <div class="forecast" id="forecast"></div>
-
     <div class="favorites-container">
       <h3>Favorites</h3>
       <div id="favoritesList">No favorites added.</div>
